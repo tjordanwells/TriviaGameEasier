@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bangers" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-body center mx-auto">
+            <h1>Batman Trivia!</h1>
+            <button id="start" type="button" class="btn btn-dark btn-lg">Start</button>
+        </div>
+    </div>
+
+
+    <div id="questions" class="card-body mx-auto w-75">
+        <h2 class="card-title" id="question">Batman Trivia</h2>
+        <br>
+        <h5 class="card-subtitle" id="time">Time Remaining: </h5>
+        <br>
+        <h3>1. What is Batman's secret identity?</h3>
+            <select id="q1" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Alfred Pennyworth</option>
+                <option value="2">Bruce Wayne</option>
+                <option value="3">Hugo Strange</option>
+            </select><br><br>
+        <h3>2. Who was Batman's first Robin?</h3>
+            <select id="q2" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Dick Grayson</option>
+                <option value="2">Damian Wayne</option>
+                <option value="3">Jason Todd</option>
+            </select><br><br>
+        <h3>3. Who wrote 'The Dark Knight Returns'?</h3>
+            <select id="q3" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Scott Snyder</option>
+                <option value="2">Jason Todd</option>
+                <option value="3">Frank Miller</option>
+            </select><br><br>
+        <h3>4. Who does The Joker kill in 'Death In The Family'?</h3>
+            <select id="q4" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Batman</option>
+                <option value="2">Jason Todd (Robin)</option>
+                <option value="3">Barbara Gordon</option>
+            </select><br><br>
+        <h3>5. Where does The Joker meet Harley Quinn?</h3>
+            <select id="q5" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Wayne Manor</option>
+                <option value="2">Arkham Asylum</option>
+                <option value="3">Gotham City Proper</option>
+            </select><br><br>
+        <h3>6. How many actors have portrayed The Caped Crusader?</h3>
+            <select id="q6" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">4</option>
+                <option value="2">7</option>
+                <option value="3">8</option>
+            </select><br><br>
+        <h3>7. Who played the Joker in Tim Burton's 'Batman'?</h3>
+            <select id="q7" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Jack Nicholson</option>
+                <option value="2">Al Pacino</option>
+                <option value="3">George Clooney</option>
+            </select><br><br>
+        <h3>8. Who created Batman?</h3>
+            <select id="q8" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">Tim Burton</option>
+                <option value="2">Adam West</option>
+                <option value="3">Bob Kane</option>
+            </select><br><br>
+        <h3>9. Who breaks Batman's back?</h3>
+            <select id="q9" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">The Joker</option>
+                <option value="2">Bane</option>
+                <option value="3">Killer Croc</option>
+            </select><br><br>
+        <h3>10. How does Batman typically get around Gotham City?</h3>
+            <select id="q10" class="custom-select w-50">
+                <option selected>Choose Answer</option>
+                <option value="1">He flies</option>
+                <option value="2">The Batmobile</option>
+                <option value="3">He walks</option>
+            </select><br><br><br>
+        <button id="submit" type="button" class="btn btn-dark btn-lg btn-block">Submit Quiz!</button>
+
+    </div>
+
+
+</body>
+
+</html>
